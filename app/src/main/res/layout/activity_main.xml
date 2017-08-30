@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.karrel.realmsample.MainActivity">
+
+        <Button
+            android:id="@+id/addData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="add data" />
+
+        <Button
+            android:id="@+id/getData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="get data" />
+
+        <Button
+            android:id="@+id/deleteData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="delete data" />
+
+    </LinearLayout>
+</layout>
